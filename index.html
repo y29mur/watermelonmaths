@@ -5,25 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Watermelon Maths</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="style.css">  <style>
+  <style>
     body {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f0f8ff;  /* Light blue background */
-      color: #333;  /* Dark text color */
+      background-color: #fdcfe8; /* Light pink background */
+      color: #333; /* Dark text color */
     }
 
-    header, section, footer {
-      background-color: #4caf50;  /* Watermelon green background */
-      color: white;
-      padding: 2rem 0;
-      text-align: center;
+    header {
+      background-color: #fff; /* White header background */
+      padding: 1rem 0;
     }
 
-    .container {  /* Styles for container element */
-      max-width: 800px; /* Limit content width */
-      margin: 0 auto;  /* Center content horizontally */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 1rem;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 1rem;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
       padding: 1rem;
     }
 
@@ -36,21 +55,11 @@
     }
 
     p {
-      line-height: 1.6;  /* Improve readability */
-    }
-
-    a {
-      color: inherit;  /* Inherit color from parent element */
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-      color: #ddd;  /* Lighter green on hover */
+      line-height: 1.6;
     }
 
     .social-links {
-      margin-top: 2rem;  /* Add space between content and social links */
+      margin-top: 2rem;
     }
 
     .social-links ul {
@@ -61,17 +70,31 @@
     }
 
     .social-links li {
-      margin: 0 15px;  /* Increase spacing between icons */
+      margin: 0 15px;
     }
 
     .social-links li a i {
-      font-size: 24px;  /* Increase icon size for better visibility */
+      font-size: 24px;
+    }
+
+    footer {
+      background-color: #fff;
+      padding: 1rem 0;
+      text-align: center;
     }
   </style>
 </head>
 <body>
 
   <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
     <div class="container">
       <h1>Watermelon Maths</h1>
       <p>Maths tutoring and support made simple</p>
@@ -100,5 +123,7 @@
     </div>
   </footer>
 
-  <img src="images/watermelon-4988432_1280.png" alt="Watermelon Slice Logo">  </body>
+  <img src="images/watermelon-4988432_1280.png" alt="Watermelon Slice Logo"> 
+
+</body>
 </html>
