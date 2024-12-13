@@ -1,136 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Watermelon Maths</title>
-    <style>
-        body {
-            font-family: 'Montserrat', sans-serif; /* Using Montserrat for a modern look */
-            margin: 0;
-            padding: 0;
-            background-color: #f0f8ff; /* Soft light blue background */
-            color: #333;
-        }
-
-        header {
-            background-color: #4caf50; /* Watermelon green */
-            color: white;
-            padding: 2rem 0; /* Consistent padding */
-            text-align: center;
-        }
-
-        section {
-            padding: 2rem; /* Consistent padding */
-            max-width: 600px; /* Limit width for better readability */
-            margin: 0 auto; /* Center content horizontally */
-        }
-
-        footer {
-            background-color: #4caf50; /* Watermelon green */
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-        a {
-            color: #4caf50; /* Watermelon green */
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        /* Optional: Add some visual interest */
-        h1 {
-            font-size: 2rem;
-        }
-
-        h2 {
-            margin-bottom: 1rem;
-        }
-
-        p {
-            line-height: 1.6; /* Improve readability */
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Watermelon Maths</h1>
-        <p>Maths tutoring and support made simple</p>
-    </header>
-
-    <section>
-        <h2>About Me</h2>
-        <p>Hi, I'm Damla, a qualified maths teacher with a passion for helping students succeed. I specialise in personalised tutoring for all levels, ensuring every student feels confident and prepared.</p>
-        <p>Visit my one-page website for more details: <a href="[Your Carrd URL]" target="_blank">My Carrd Page</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Watermelon Maths</p>
-    </footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Social Media Links</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        .social-links {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center; /* Center icons horizontally */
-        }
-
-        .social-links li {
-            margin: 0 10px; /* Spacing between icons */
-        }
-
-        .social-links a {
-            color: #333; /* Default color */
-            text-decoration: none;
-        }
-
-        .social-links a:hover {
-            color: #4CAF50; /* Green on hover */
-        }
-    </style>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watermelon Maths</title>
+  <link rel="stylesheet" href="style.css">  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> </head>
 <body>
 
-    <ul class="social-links">
+  <header>
+    <div class="container">  <h1>Watermelon Maths</h1>
+      <p>Maths tutoring and support made simple</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">  <h2>About Me</h2>
+      <p>Hi, I'm Damla, a qualified maths teacher with a passion for helping students succeed. I specialise in personalised tutoring for all levels, ensuring every student feels confident and prepared.</p>
+      <p>Visit my one-page website for more details: <a href="[Your Carrd URL]" target="_blank">My Carrd Page</a></p>
+    </div>
+  </section>
+
+  <section class="social-links">  <div class="container">  <ul>
         <li><a href="https://wa.me/+447979168313"><i class="fab fa-whatsapp"></i></a></li>
-        </li>
-    </ul>
+        </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">  <p>&copy; 2024 Watermelon Maths</p>
+    </div>
+  </footer>
 
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css"> 
-</head>
-<body>
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;  /* Light blue background */
+  color: #333;  /* Dark text color */
+}
 
-    <header>
-        <h1>My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+header, section, footer {
+  background-color: #4caf50;  /* Watermelon green background */
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
 
-    </body>
-</html>
+.container {  /* Styles for container element */
+  max-width: 800px; /* Limit content width */
+  margin: 0 auto;  /* Center content horizontally */
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.6;  /* Improve readability */
+}
+
+a {
+  color: inherit;  /* Inherit color from parent element */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ddd;  /* Lighter green on hover */
+}
+
+.social-links {
+  margin-top: 2rem;  /* Add space between content and social links */
+}
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-links li {
+  margin: 0 15px;  /* Increase spacing between icons */
+}
+
+.social-links li a i {
+  font-size: 24px;  /* Increase icon size for better visibility */
+}
