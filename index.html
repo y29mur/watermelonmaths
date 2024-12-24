@@ -139,7 +139,7 @@
 
   <img src="images/watermelon-4988432_1280.png" alt="Watermelon Slice Logo"> 
 
-  <body>
+<body>
 
   <!-- existing body content -->
 
@@ -150,8 +150,16 @@
   <script>
     const canvas = document.getElementById('mathCanvas');
     const ctx = canvas.getContext('2d');
+
+    // Set canvas size to cover entire viewport
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
+
+    // Style the canvas to cover entire viewport and be behind other content
+    canvas.style.position = 'fixed';
+    canvas.style.top = '0';
+    canvas.style.left = '0';
+    canvas.style.zIndex = '-1';
 
     const symbols = ['+', '-', '×', '÷', '=', '≠', '∑', '√'];
     const particles = [];
@@ -201,6 +209,12 @@
     });
 
     animate();
+
+    // Adjust canvas size on window resize
+    window.addEventListener('resize', () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    });
   </script>
 </body>
 </html>
