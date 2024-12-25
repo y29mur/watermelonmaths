@@ -1,441 +1,221 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
-  <meta charset="UTF-8">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Watermelon Maths</title>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Aeonik&family=Geist&display=swap" rel="stylesheet"> 
-
-  <style>
-
-    body {
-
-      font-family: 'Aeonik', sans-serif; 
-
-      margin: 0;
-
-      padding: 0;
-
-      background-color: #FDE6E0; 
-
-      color: #333; 
-
-    }
-
-
-
-    header {
-
-      background-color: #fff; 
-
-      padding: 1rem 0;
-
-    }
-
-
-
-    nav {
-
-      display: flex;
-
-      justify-content: space-between;
-
-      padding: 0 1rem;
-
-    }
-
-
-
-    nav li {
-
-      display: inline-block;
-
-      margin: 0 1rem;
-
-    }
-
-
-
-    nav a {
-
-      color: #333;
-
-      text-decoration: none;
-
-      font-weight: bold;
-
-    }
-
-
-
-    nav a:hover {
-
-      text-decoration: underline;
-
-    }
-
-
-
-    .container {
-
-      max-width: 800px;
-
-      margin: 0 auto;
-
-      padding: 1rem;
-
-    }
-
-
-
-    h1 {
-
-      font-family: 'Geist', sans-serif; /* Use Geist font for headings */
-
-      font-size: 2.5rem; /* Slightly larger heading size */
-
-    }
-
-
-
-    h2 {
-
-      margin-bottom: 1rem;
-
-    }
-
-
-
-    p {
-
-      line-height: 1.6;
-
-    }
-
-
-
-    .social-links {
-
-      margin-top: 2rem;
-
-    }
-
-
-
-    .social-links ul {
-
-      list-style: none;
-
-      padding: 0;
-
-      display: flex;
-
-      justify-content: center;
-
-    }
-
-
-
-    .social-links li {
-
-      margin: 0 15px;
-
-    }
-
-
-
-    .social-links li a i {
-
-      font-size: 24px;
-
-    }
-
-   
-
-    .social-links li a:hover i {
-
-      color: green; /* Add this line to change the color on hover */
-
-    }
-
-   
-
-    footer {
-
-      background-color: #fff;
-
-      padding: 1rem 0;
-
-      text-align: center;
-
-    }
-
-
-
-    img {
-
-      max-width: 100px;
-
-      margin: 20px auto;
-
-      display: block; 
-
-    }
-
-  </style>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watermelon Maths</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aeonik&family=Geist&display=swap" rel="stylesheet"> 
+  <style>
+    body {
+      font-family: 'Aeonik', sans-serif; 
+      margin: 0;
+      padding: 0;
+      background-color: #FDE6E0; 
+      color: #333; 
+    }
+
+    header {
+      background-color: #fff; 
+      padding: 1rem 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 1rem;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 1rem;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    h1 {
+      font-family: 'Geist', sans-serif; /* Use Geist font for headings */
+      font-size: 2.5rem; /* Slightly larger heading size */
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .social-links {
+      margin-top: 2rem;
+    }
+
+    .social-links ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-links li {
+      margin: 0 15px;
+    }
+
+    .social-links li a i {
+      font-size: 24px;
+    }
+   
+    .social-links li a:hover i {
+      color: green; /* Add this line to change the color on hover */
+    }
+   
+    footer {
+      background-color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100px;
+      margin: 20px auto;
+      display: block; 
+    }
+  </style>
 </head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About.html">About Me</a></li>
+        <li><a href="Daily-5".html">Daily 5</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Watermelon Maths</h1>
+      <p>Maths tutoring and support made simple</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hi, I'm Damla, a qualified maths teacher with a passion for helping students succeed. I specialise in personalised tutoring for all levels, ensuring every student feels confident and prepared.</p>
+      <p>Visit my one-page website for more details: <a href="https://dammaths.carrd.co/" target="_blank">My Carrd Page</a></p>
+    </div>
+  </section>
+
+  <section class="social-links">
+    <div class="container">
+      <ul>
+        <li><a href="https://wa.me/+447979168313"><i class="fab fa-whatsapp"></i></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Watermelon Maths</p>
+    </div>
+  </footer>
+
+  <img src="images/watermelon-4988432_1280.png" alt="Watermelon Slice Logo"> 
 
 <body>
 
-
-
-  <header>
-
-    <nav>
-
-      <ul>
-
-        <li><a href="index.html">Home</a></li>
-
-        <li><a href="services.html">Services</a></li>
-
-        <li><a href="quick-five.html">Quick5</a></li>
-
-        <li><a href="about.html">About Me</a></li>
-
-        <li><a href="contact.html">Contact</a></li>
-
-      </ul>
-
-    </nav>
-
-    <div class="container">
-
-      <h1>Watermelon Maths</h1>
-
-      <p>Maths tutoring and support made simple</p>
-
-    </div>
-
-  </header>
-
-
-
-  <section>
-
-    <div class="container">
-
-      <h2>About Me</h2>
-
-      <p>Hi, I'm Damla, a qualified maths teacher with a passion for helping students succeed. I specialise in personalised tutoring for all levels, ensuring every student feels confident and prepared.</p>
-
-      <p>Visit my one-page website for more details: <a href="https://dammaths.carrd.co/" target="_blank">My Carrd Page</a></p>
-
-    </div>
-
-  </section>
-
-
-
-  <section class="social-links">
-
-    <div class="container">
-
-      <ul>
-
-        <li><a href="https://wa.me/+447979168313"><i class="fab fa-whatsapp"></i></a></li>
-
-      </ul>
-
-    </div>
-
-  </section>
-
-
-
-  <footer>
-
-    <div class="container">
-
-      <p>&copy; 2024 Watermelon Maths</p>
-
-    </div>
-
-  </footer>
-
-
-
-  <img src="images/watermelon-4988432_1280.png" alt="Watermelon Slice Logo"> 
-
-
-
-  <body>
-
-
-
-  <!-- existing body content -->
-
-
-
-  <!-- Add canvas element -->
-
-  <canvas id="mathCanvas"></canvas>
-
-
-
-  <!-- Add JavaScript for animation -->
-
-  <script>
-
-    const canvas = document.getElementById('mathCanvas');
-
-    const ctx = canvas.getContext('2d');
-
-
-
-    // Set canvas size to cover entire viewport
-
-    canvas.width = window.innerWidth;
-
-    canvas.height = window.innerHeight;
-
-
-
-    // Style the canvas to cover entire viewport and be behind other content
-
-    canvas.style.position = 'fixed';
-
-    canvas.style.top = '0';
-
-    canvas.style.left = '0';
-
-    canvas.style.zIndex = '-1';
-
-
-
-    const symbols = ['+', '-', '×', '÷', '=', '≠', '∑', '√'];
-
-    const particles = [];
-
-
-
-    class Particle {
-
-      constructor() {
-
-        this.x = Math.random() * canvas.width;
-
-        this.y = Math.random() * canvas.height;
-
-        this.size = Math.random() * 20 + 10;
-
-        this.speedX = Math.random() * 3 - 1.5;
-
-        this.speedY = Math.random() * 3 - 1.5;
-
-        this.symbol = symbols[Math.floor(Math.random() * symbols.length)];
-
-      }
-
-      update() {
-
-        this.x += this.speedX;
-
-        this.y += this.speedY;
-
-        if (this.size > 0.2) this.size -= 0.1;
-
-      }
-
-      draw() {
-
-        ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
-
-        ctx.font = `${this.size}px Arial`;
-
-        ctx.fillText(this.symbol, this.x, this.y);
-
-      }
-
-    }
-
-
-
-    function handleParticles() {
-
-      for (let i = 0; i < particles.length; i++) {
-
-        particles[i].update();
-
-        particles[i].draw();
-
-        if (particles[i].size <= 0.3) {
-
-          particles.splice(i, 1);
-
-          i--;
-
-        }
-
-      }
-
-    }
-
-
-
-    function animate() {
-
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-      handleParticles();
-
-      requestAnimationFrame(animate);
-
-    }
-
-
-
-    window.addEventListener('click', (event) => {
-
-      for (let i = 0; i < 10; i++) {
-
-        particles.push(new Particle());
-
-      }
-
-    });
-
-
-
-    animate();
-
-
-
-    // Adjust canvas size on window resize
-
-    window.addEventListener('resize', () => {
-
-      canvas.width = window.innerWidth;
-
-      canvas.height = window.innerHeight;
-
-    });
-
-  </script>
-
+  <!-- existing body content -->
+
+  <!-- Add canvas element -->
+  <canvas id="mathCanvas"></canvas>
+
+  <!-- Add JavaScript for animation -->
+  <script>
+    const canvas = document.getElementById('mathCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // Set canvas size to cover entire viewport
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    // Style the canvas to cover entire viewport and be behind other content
+    canvas.style.position = 'fixed';
+    canvas.style.top = '0';
+    canvas.style.left = '0';
+    canvas.style.zIndex = '-1';
+
+    const symbols = ['+', '-', '×', '÷', '=', '≠', '∑', '√'];
+    const particles = [];
+
+    class Particle {
+      constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.size = Math.random() * 20 + 10;
+        this.speedX = Math.random() * 3 - 1.5;
+        this.speedY = Math.random() * 3 - 1.5;
+        this.symbol = symbols[Math.floor(Math.random() * symbols.length)];
+      }
+      update() {
+        this.x += this.speedX;
+        this.y += this.speedY;
+        if (this.size > 0.2) this.size -= 0.1;
+      }
+      draw() {
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
+        ctx.font = `${this.size}px Arial`;
+        ctx.fillText(this.symbol, this.x, this.y);
+      }
+    }
+
+    function handleParticles() {
+      for (let i = 0; i < particles.length; i++) {
+        particles[i].update();
+        particles[i].draw();
+        if (particles[i].size <= 0.3) {
+          particles.splice(i, 1);
+          i--;
+        }
+      }
+    }
+
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      handleParticles();
+      requestAnimationFrame(animate);
+    }
+
+    window.addEventListener('click', (event) => {
+      for (let i = 0; i < 10; i++) {
+        particles.push(new Particle());
+      }
+    });
+
+    animate();
+
+    // Adjust canvas size on window resize
+    window.addEventListener('resize', () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    });
+  </script>
 </body>
-
 </html>
